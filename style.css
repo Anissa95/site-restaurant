@@ -7,7 +7,7 @@
 }
 
 .top-sec {
-    min-height: 90vh;
+    min-height: 100vh;
     width: 100%;
     background-image: url(/images/Kata_fast_demo_restaurant.jpg);
     background-repeat: no-repeat;
@@ -96,4 +96,362 @@ ul li span:hover {
 .content button:hover {
     background-color: black;
     color: #dfc571;
+}
+
+.mid-sec {
+    min-height: 100vh;
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.row-1 {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.col {
+    width: 25%;
+    height: 200px;
+    background-color: #dfc571;
+    padding: 40px;
+    margin: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.col:hover {
+    transform: translateY(-20px);
+}
+
+.col h2 {
+    padding-bottom: 5px;
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.row-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    flex-basis: 25%;
+}
+
+.col-1 img {
+    width: 100%;
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+.col-1 img:hover {
+    transform: scale(1.1);
+}
+
+.img-animation {
+    overflow: hidden;
+}
+
+.img-box {
+    position: relative;
+    z-index: 10;
+}
+
+.img-box::after {
+    content: "";
+    background-color: #dfc571;
+    width: 240px;
+    height: 245px;
+    position: absolute;
+    bottom: -90px;
+    left: -94px;
+    z-index: -1;
+}
+
+.col-2 {
+    flex-basis: 32%;
+    padding-left: 95px;
+}
+
+.col-2 h2 {
+    padding-bottom: 20px;
+    color: black;
+    line-height: 2em;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.col-2 p {
+    padding-bottom: 20px;
+    color: #646464;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.61em;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bottom-sec {
+    min-height: 30vh;
+    width: 100%;
+    background-color: #dfc571;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    padding: 50px;
+}
+
+.box h2 {
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.box button {
+    color: black;
+    padding: 17px 40px;
+    font-size: 16px;
+    line-height: 23px;
+    border: none;
+    background-color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    transition: 0.5s;
+    display: block;
+    margin: 40px auto 0;
+}
+
+.box button:hover {
+    background-color: black;
+    color: #dfc571;
+}
+
+.end-sec {
+    min-height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1100px;
+    margin-bottom: 10px;
+}
+
+.cnt-col-1 {
+    padding: 143px 50px;
+    flex-basis: 30%;
+    background-color: #dfc571;
+}
+
+.cnt-col-1 h3 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.cnt-col-1 p {
+    padding-bottom: 20px;
+    color: #3f3f3f;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.cnt-col-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+    padding: 100px 0;
+    background-color: #f0f0f077;
+    backdrop-filter: blur(5px);
+    border: none;
+}
+
+#name,
+#email {
+    width: 245px;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+}
+
+#email {
+    margin-left: 5px;
+}
+
+#title {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+}
+
+#message {
+    resize: none;
+    width: 100%;
+    height: 160px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.input::placeholder {
+    font-size: 14px;
+    color: #363636;
+    font-family: 'Nunito', sans-serif;
+}
+
+#btn {
+    width: 100%;
+    padding: 14px 0;
+    color: #000000;
+    border: none;
+    font-size: 14px;
+    line-height: 23px;
+    background-color: #f3d678;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#btn:hover {
+    background-color: black;
+    color: #dfc571;
+}
+
+.copyrightText {
+    background-color: #dfc571;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.copyrightText p {
+    font-family: 'Nunito', sans-serif;
+    padding: 5px;
+}
+
+.navigation {
+    display: flex;
+}
+
+
+/************************ Media Quarry For Responsiveness***************** */
+
+@media only screen and (max-width:600px) {
+    /************************ css for top-section **********************/
+    .top-sec {
+        min-height: 100vh;
+        background-position: 55%;
+        margin-bottom: 50px;
+    }
+    /******* css for header *********/
+    ul {
+        display: block;
+    }
+    .header {
+        padding: 50px 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        width: 100%;
+    }
+    /******* css for landing page ******/
+    .container {
+        margin-top: 150px;
+    }
+    .content h1 {
+        font-size: 50px;
+        line-height: 64px;
+        text-align: center;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .content button {
+        margin: 70px auto 10px;
+    }
+    /******************* Css For Middle section *******************/
+    .row-1 {
+        flex-direction: column;
+    }
+    .col {
+        width: 90%;
+        text-align: center;
+    }
+    .row-2 {
+        flex-direction: column;
+    }
+    .img-box::after {
+        display: none;
+    }
+    .col-2 {
+        text-align: center;
+        padding: 50px;
+        margin-bottom: 0;
+    }
+    /**************************Css for Bottom section **************************/
+    .box h1 {
+        font-size: 34px;
+    }
+    /**************************Css for end section **************************/
+    .cnt-col-1 {
+        text-align: center;
+        padding: 50px 100px
+    }
+    .cnt-col-2 {
+        padding: 50px 40px;
+    }
+    #name,
+    #email {
+        width: 100%;
+        margin: 0 0 15px;
+    }
+    .contact-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 1100px;
+        margin-bottom: 10px;
+    }
 }
