@@ -34,7 +34,7 @@ ul li {
 }
 
 ul li a {
-    color: #ffffff;
+    color: #fafafae5;
     font-size: 16px;
     text-decoration: none;
     font-weight: 700;
@@ -49,7 +49,7 @@ ul li a:hover {
 }
 
 ul li span {
-    color: #ffffff;
+    color: #e6dfdf;
     font-size: 25px;
     cursor: pointer;
     transition: 0.5s;
@@ -78,7 +78,7 @@ ul li span:hover {
     font-size: 52px;
     line-height: 74px;
     font-weight: 700;
-    color: white;
+    color: #fafafae5;
 }
 
 .content button {
