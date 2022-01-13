@@ -13,7 +13,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 .header {
@@ -30,7 +30,7 @@ ul {
 
 ul li {
     list-style: none;
-    padding: 10px 15px;
+    padding: 10px 10px;
 }
 
 ul li a {
@@ -53,6 +53,10 @@ ul li span {
     font-size: 25px;
     cursor: pointer;
     transition: 0.5s;
+}
+
+.icon-nav {
+    line-height: 1px;
 }
 
 ul li span:hover {
@@ -91,6 +95,7 @@ ul li span:hover {
     margin-left: 10px;
     font-family: 'Nunito', sans-serif;
     transition: 0.5s;
+    margin-bottom: 30px;
 }
 
 .content button:hover {
@@ -99,7 +104,7 @@ ul li span:hover {
 }
 
 .mid-sec {
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     width: 100%;
     margin-bottom: 120px;
 }
@@ -116,9 +121,9 @@ ul li span:hover {
 
 .col {
     width: 25%;
-    height: 200px;
+    height: 250px;
     background-color: #dfc571;
-    padding: 40px;
+    padding: 30px;
     margin: 15px;
     cursor: pointer;
     transition: 0.5s;
@@ -178,7 +183,7 @@ ul li span:hover {
 }
 
 .col-2 {
-    flex-basis: 32%;
+    flex-basis: 40%;
     padding-left: 95px;
 }
 
@@ -263,6 +268,7 @@ ul li span:hover {
     padding: 143px 50px;
     flex-basis: 30%;
     background-color: #dfc571;
+    height: 550px;
 }
 
 .cnt-col-1 h3 {
@@ -289,6 +295,7 @@ ul li span:hover {
     background-color: #f0f0f077;
     backdrop-filter: blur(5px);
     border: none;
+    height: 550px;
 }
 
 #name,
@@ -354,13 +361,14 @@ ul li span:hover {
     background-color: #dfc571;
     display: flex;
     justify-content: center;
-    font-size: 18px;
-    font-weight: 700;
 }
 
 .copyrightText p {
     font-family: 'Nunito', sans-serif;
     padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .navigation {
@@ -382,22 +390,22 @@ ul li span:hover {
         display: block;
     }
     .header {
-        padding: 50px 0 0;
+        padding: 20px 0 0;
         display: flex;
         flex-direction: column;
     }
     .navigation {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         text-align: left;
         width: 100%;
     }
     /******* css for landing page ******/
     .container {
-        margin-top: 150px;
+        margin-top: 0;
     }
     .content h1 {
-        font-size: 50px;
+        font-size: 25px;
         line-height: 64px;
         text-align: center;
     }
@@ -410,6 +418,9 @@ ul li span:hover {
         margin: 70px auto 10px;
     }
     /******************* Css For Middle section *******************/
+    .mid-sec {
+        margin-bottom: 0;
+    }
     .row-1 {
         flex-direction: column;
     }
@@ -427,10 +438,14 @@ ul li span:hover {
         text-align: center;
         padding: 50px;
         margin-bottom: 0;
+        width: 100%;
     }
     /**************************Css for Bottom section **************************/
     .box h1 {
         font-size: 34px;
+    }
+    .col-1 {
+        width: 90%;
     }
     /**************************Css for end section **************************/
     .cnt-col-1 {
