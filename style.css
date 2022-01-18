@@ -9,7 +9,7 @@
 .top-sec {
     min-height: 100vh;
     width: 100%;
-    background-image: url(/images/Kata_fast_demo_restaurant.jpg);
+    background-image: url(./images/Kata_fast_demo_restaurant.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
